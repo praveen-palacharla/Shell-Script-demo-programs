@@ -2,5 +2,5 @@
 read -p "Enter file name:" filename
 while read line
 do
-	echo $line  ${#line}
+	echo $line
 done < $filename
